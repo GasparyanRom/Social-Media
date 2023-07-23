@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SecondScreen extends StatelessWidget {
-  const SecondScreen({super.key});
+class ThirdScreen extends StatelessWidget {
+  const ThirdScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -150,7 +150,7 @@ class SecondScreen extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Text(
-                    'Sign in',
+                    'Sign Up',
                     style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
                   ),
                 ),

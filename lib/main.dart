@@ -7,6 +7,11 @@ import 'package:socialmedia/profile/profile.dart';
 import 'package:socialmedia/verify/second_screen.dart';
 import 'package:socialmedia/verify/signup.dart';
 import 'package:socialmedia/verify/welcome.dart';
+import 'package:socialmedia/verify_2.dart/forgot_pass.dart';
+import 'package:socialmedia/verify_2.dart/new_pass.dart';
+import 'package:socialmedia/verify_2.dart/signin.dart';
+import 'package:socialmedia/verify_2.dart/third_screen.dart';
+import 'package:socialmedia/verify_2.dart/welcome_back.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +22,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: Welcome());
+    return const MaterialApp(
+      home: NewPass(),
+    );
   }
 }

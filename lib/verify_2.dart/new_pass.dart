@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SignUp extends StatelessWidget {
-  const SignUp({super.key});
+class NewPass extends StatelessWidget {
+  const NewPass({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class SignUp extends StatelessWidget {
             child: Row(
               children: [
                 Text(
-                  'Select a Username',
+                  'Pick a new Password',
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
                 ),
               ],
@@ -43,7 +43,7 @@ class SignUp extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Text(
-                  'Username',
+                  'New Password',
                   style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
                 ),
               ),
@@ -69,33 +69,7 @@ class SignUp extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Text(
-                  'Password',
-                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
-                ),
-              ),
-            ],
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-              ),
-              child: TextField(
-                decoration: InputDecoration(
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                ),
-              ),
-            ),
-          ),
-          const Row(
-            children: [
-              Padding(
-                padding: EdgeInsets.all(8.0),
-                child: Text(
-                  'Confirm password',
+                  'Confirm New Password',
                   style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
                 ),
               ),
@@ -117,7 +91,7 @@ class SignUp extends StatelessWidget {
             ),
           ),
           Container(
-            height: 200,
+            height: 350,
             width: double.infinity,
           ),
           Container(
@@ -149,7 +123,7 @@ class SignUp extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Text(
-                    'Sign in',
+                    'Sign Up',
                     style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
                   ),
                 ),
