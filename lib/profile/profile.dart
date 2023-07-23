@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:socialmedia/folower_class.dart';
+import 'package:socialmedia/profile/folower_class.dart';
 
 class Profile extends StatelessWidget {
   const Profile({super.key});
@@ -43,22 +43,25 @@ class Profile extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            const Row(
-              children: [
-                Icon(Icons.arrow_back),
-                Center(
-                  child: Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 150),
-                    child: Text(
-                      'My Profile',
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.w600,
+            const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Row(
+                children: [
+                  Icon(Icons.arrow_back),
+                  Center(
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 100),
+                      child: Text(
+                        'My Profile',
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
+                        ),
                       ),
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
