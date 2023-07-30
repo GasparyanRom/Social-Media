@@ -111,7 +111,7 @@ class Chatlist extends StatelessWidget {
             height: 400,
             width: 500,
             child: ListView.builder(
-              itemCount: posts.length,
+              itemCount: users.length,
               scrollDirection: Axis.vertical,
               itemBuilder: (context, index) => Padding(
                 padding: const EdgeInsets.all(8.0),
