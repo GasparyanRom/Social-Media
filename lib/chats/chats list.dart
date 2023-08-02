@@ -9,31 +9,31 @@ class Chatlist extends StatelessWidget {
   Widget build(BuildContext context) {
     final List user = [
       chatusers(
-        imageUrl: 'images\chat user1.png',
+        imageUrl: 'images/chat user1.png',
         name: 'Amina Mark',
       ),
       chatusers(
-        imageUrl: 'images\chat user2.png',
+        imageUrl: 'images/chat user2.png',
         name: 'Mike joel',
       ),
       chatusers(
-        imageUrl: 'images\chat user3.png',
+        imageUrl: 'images/chat user3.png',
         name: 'Joyce Mark',
       ),
       chatusers(
-        imageUrl: 'images\chat user 4.png',
+        imageUrl: 'images/chat user 4.png',
         name: 'Emman',
       ),
       chatusers(
-        imageUrl: 'images\chat user 5.png',
+        imageUrl: 'images/chat user 5.png',
         name: 'General',
       ),
       chatusers(
-        imageUrl: 'images\chat user 6.png',
+        imageUrl: 'images/chat user 6.png',
         name: 'Sister Joy',
       ),
       chatusers(
-        imageUrl: 'images\chat user 7.png',
+        imageUrl: 'images/chat user 7.png',
         name: 'Hassan Ad',
       ),
     ];
@@ -72,12 +72,16 @@ class Chatlist extends StatelessWidget {
               border: OutlineInputBorder(),
             ),
           ),
-          const Text(
-            'Frequently chatted',
-            style: TextStyle(
-                color: Color.fromRGBO(0, 0, 0, 1),
-                fontSize: 14,
-                fontWeight: FontWeight.w500),
+          Row(
+            children: [
+              const Text(
+                'Frequently chatted',
+                style: TextStyle(
+                    color: Color.fromRGBO(0, 0, 0, 1),
+                    fontSize: 14,
+                    fontWeight: FontWeight.w500),
+              ),
+            ],
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -103,9 +107,13 @@ class Chatlist extends StatelessWidget {
               ),
             ),
           ),
-          const Text(
-            'All Messages',
-            style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+          Row(
+            children: [
+              const Text(
+                'All Messages',
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+              ),
+            ],
           ),
           SizedBox(
             height: 400,
@@ -115,15 +123,28 @@ class Chatlist extends StatelessWidget {
               scrollDirection: Axis.vertical,
               itemBuilder: (context, index) => Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  child: Column(
-                    children: [
-                      Image.asset(
-                        users[index],
-                        fit: BoxFit.cover,
+                child: Row(
+                  children: [
+                    Container(
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              Image.asset(
+                                users[index],
+                                fit: BoxFit.cover,
+                              ),
+                              Text(
+                                user[index].name,
+                                style: TextStyle(
+                                    fontSize: 12, fontWeight: FontWeight.w700),
+                              )
+                            ],
+                          ),
+                        ],
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
             ),

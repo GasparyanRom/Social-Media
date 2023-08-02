@@ -8,7 +8,7 @@ class AddPost extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Padding(
+        const  Padding(
             padding: EdgeInsets.symmetric(vertical: 45),
             child: Center(
               child: Text(
@@ -18,20 +18,33 @@ class AddPost extends StatelessWidget {
               ),
             ),
           ),
-          Text('Select Image (s)'),
+        const  Row(
+            children: [
+              Text('Select Image (s)'),
+            ],
+          ),
           Container(
             decoration: BoxDecoration(
                 color: Color.fromRGBO(242, 242, 242, 1),
                 borderRadius: BorderRadius.circular(1)),
             height: 250,
             width: 450,
-            child: Icon(Icons.add),
+            child:const  Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Icon(Icons.add),
+              ],
+            ),
           ),
-          Padding(
+         const Padding(
             padding: EdgeInsets.symmetric(vertical: 10),
-            child: Text('Add caption'),
+            child: Row(
+              children: [
+                Text('Add caption'),
+              ],
+            ),
           ),
-          Padding(
+         const Padding(
             padding: EdgeInsets.symmetric(vertical: 25),
             child: TextField(
               decoration: InputDecoration(
@@ -41,11 +54,15 @@ class AddPost extends StatelessWidget {
               ),
             ),
           ),
-          Padding(
+         const Padding(
             padding: EdgeInsets.symmetric(vertical: 10),
-            child: Text('Add hastags'),
+            child: Row(
+              children: [
+                Text('Add hastags'),
+              ],
+            ),
           ),
-          TextField(
+          const TextField(
             decoration: InputDecoration(
               filled: true,
               fillColor: Color.fromRGBO(242, 242, 242, 1),
