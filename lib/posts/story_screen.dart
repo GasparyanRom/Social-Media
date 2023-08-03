@@ -31,10 +31,12 @@ class storyscreen extends StatelessWidget {
                           padding: const EdgeInsets.symmetric(vertical: 20),
                           child: Image.asset('images/user.png'),
                         ),
-                        Text(
+                       const Text(
                           'El kamcy speaks',
                           style: TextStyle(
-                              fontSize: 15, fontWeight: FontWeight.w600),
+                              fontSize: 15,
+                              fontWeight: FontWeight.w600,
+                              color: Color.fromRGBO(255, 255, 255, 1)),
                         ),
                       ],
                     ),

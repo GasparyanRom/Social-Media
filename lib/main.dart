@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:socialmedia/live_screen.dart';
 import 'package:socialmedia/posts/addpost.dart';
 import 'package:socialmedia/chats/chat.dart';
 import 'package:socialmedia/chats/chats%20list.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: storyscreen(),
+      home: livescreen(),
     );
   }
 }
