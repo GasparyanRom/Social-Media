@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:socialmedia/notific.dart';
 import 'package:socialmedia/profile/edit_profile.dart';
 import 'package:socialmedia/profile/myprofile.dart';
 import 'package:socialmedia/verify/person_info.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: NewPass(),
+      home: NotificScreen(),
     );
   }
 }
