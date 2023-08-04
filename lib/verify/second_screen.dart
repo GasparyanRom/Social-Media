@@ -12,7 +12,7 @@ class SecondScreen extends StatelessWidget {
             padding: EdgeInsets.all(15.0),
             child: Row(
               children: [
-                Icon(Icons.arrow_back),
+                Icon(Icons.arrow_back_ios),
               ],
             ),
           ),

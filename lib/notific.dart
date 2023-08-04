@@ -12,7 +12,7 @@ class NotificScreen extends StatelessWidget {
             padding: EdgeInsets.all(8.0),
             child: Row(
               children: [
-                Icon(Icons.arrow_back),
+                Icon(Icons.arrow_back_ios),
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 100),
                   child: Text(

@@ -12,10 +12,10 @@ class EditProfile extends StatelessWidget {
             padding: EdgeInsets.all(8.0),
             child: Row(
               children: [
-                Icon(Icons.arrow_back),
+                Icon(Icons.arrow_back_ios),
                 Center(
                   child: Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 100),
+                    padding: EdgeInsets.symmetric(horizontal: 125),
                     child: Text(
                       'My Profile',
                       style: TextStyle(
@@ -34,17 +34,23 @@ class EditProfile extends StatelessWidget {
                 padding: const EdgeInsets.all(8.0),
                 child: Image.asset('images/14.png'),
               ),
-              const Column(
-                children: [
-                  Text(
-                    'EI kamcy speaks',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
-                  ),
-                  Text(
-                    'Bauchi,Bauchi',
-                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
-                  ),
-                ],
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 25),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'EI kamcy speaks',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
+                    ),
+                    Text(
+                      'Bauchi,Bauchi',
+                      style:
+                          TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
@@ -178,6 +184,9 @@ class EditProfile extends StatelessWidget {
                 ),
               ),
             ),
+          ),
+          Container(
+            height: 50,
           ),
           Container(
             height: 49,

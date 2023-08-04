@@ -8,7 +8,7 @@ class Profile extends StatelessWidget {
   Widget build(BuildContext context) {
     final List folowers = [
       Followers(
-        imageUrl: 'images/4.png',
+        imageUrl: 'images/2.png',
         name: 'Mark',
       ),
       Followers(
@@ -24,12 +24,12 @@ class Profile extends StatelessWidget {
         name: 'Joy',
       ),
       Followers(
-        imageUrl: 'images/axjik.png',
+        imageUrl: 'images/4.png',
         name: 'Ann',
       ),
     ];
     final List posts = [
-      'images/5.png',
+      'images/38.png',
       'images/6.png',
       'images/7.png',
       'images/8.png',
@@ -44,15 +44,15 @@ class Profile extends StatelessWidget {
         child: Column(
           children: [
             const Padding(
-              padding: EdgeInsets.all(8.0),
+              padding: EdgeInsets.all(15.0),
               child: Row(
                 children: [
-                  Icon(Icons.arrow_back),
+                  Icon(Icons.arrow_back_ios),
                   Center(
                     child: Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 100),
+                      padding: EdgeInsets.symmetric(horizontal: 125),
                       child: Text(
-                        'My Profile',
+                        'Profile',
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.w600,
@@ -71,6 +71,7 @@ class Profile extends StatelessWidget {
                   child: Image.asset('images/axjik.png'),
                 ),
                 const Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       'Amina Mark',
@@ -84,10 +85,10 @@ class Profile extends StatelessWidget {
                     ),
                   ],
                 ),
-                const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 100),
-                  child: Icon(Icons.settings_outlined),
+                Container(
+                  width: 150,
                 ),
+                Icon(Icons.more_vert),
               ],
             ),
             Row(
@@ -118,18 +119,16 @@ class Profile extends StatelessWidget {
                     ),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 40),
-                  child: Container(
-                    width: 45,
-                    height: 31,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    child: const Center(
-                      child: Icon(Icons.message_outlined),
-                    ),
+                Container(
+                  width: 60,
+                ),
+                Container(
+                  width: 80,
+                  height: 31,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
                   ),
+                  child: Center(child: Image.asset("images/79.png")),
                 ),
                 Container(
                   height: 31,
@@ -211,9 +210,17 @@ class Profile extends StatelessWidget {
             Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                const Text(
-                  'Followers',
-                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
+                const Padding(
+                  padding: EdgeInsets.all(15.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        'Followers',
+                        style: TextStyle(
+                            fontSize: 14, fontWeight: FontWeight.w600),
+                      ),
+                    ],
+                  ),
                 ),
                 SizedBox(
                   width: 375,
@@ -241,9 +248,17 @@ class Profile extends StatelessWidget {
             ),
             Column(
               children: [
-                const Text(
-                  'Posts',
-                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
+                const Padding(
+                  padding: EdgeInsets.all(15.0),
+                  child: Row(
+                    children: [
+                      Text(
+                        'Posts',
+                        style: TextStyle(
+                            fontSize: 14, fontWeight: FontWeight.w600),
+                      ),
+                    ],
+                  ),
                 ),
                 SizedBox(
                   height: 400,
@@ -256,6 +271,7 @@ class Profile extends StatelessWidget {
                       crossAxisSpacing: 10,
                       mainAxisSpacing: 10,
                     ),
+                    itemCount: posts.length,
                     itemBuilder: (context, index) => Container(
                       child: Image.asset(
                         posts[index],
