@@ -172,6 +172,20 @@ class Second extends StatelessWidget {
                     color: Colors.black),
               )
             ],
+          ),
+          Container(
+            width: double.infinity,
+            height: 160,
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: <Color>[
+                  Color.fromARGB(255, 251, 252, 255),
+                  Color.fromRGBO(28, 103, 88, 1),
+                ],
+              ),
+            ),
           )
         ],
       ),

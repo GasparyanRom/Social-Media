@@ -183,7 +183,7 @@ class Social extends StatelessWidget {
           ],
         ),
         Padding(
-          padding: const EdgeInsets.symmetric(vertical: 20),
+          padding: const EdgeInsets.symmetric(vertical: 0),
           child: Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(
@@ -295,11 +295,14 @@ class Social extends StatelessWidget {
                   borderRadius: BorderRadius.circular(50),
                   color: const Color.fromRGBO(0, 97, 117, 1),
                 ),
-                child: const Icon(Icons.add)),
+                child: const Icon(Icons.add_alarm_rounded)),
+            const SizedBox(
+              width: 90,
+            )
           ],
         ),
         Padding(
-          padding: const EdgeInsets.symmetric(vertical: 10),
+          padding: const EdgeInsets.symmetric(vertical: 0),
           child: Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(
