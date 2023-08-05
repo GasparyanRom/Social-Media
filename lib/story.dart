@@ -48,3 +48,14 @@ class Story extends StatelessWidget {
     );
   }
 }
+//  Padding(
+//               padding: const EdgeInsets.symmetric(horizontal: 100),
+//               child: Container(
+//                   height: 49,
+//                   width: 49,
+//                   decoration: BoxDecoration(
+//                     borderRadius: BorderRadius.circular(50),
+//                     color: Color.fromRGBO(0, 97, 117, 1),
+//                   ),
+//                   child: Icon(Icons.add)),
+//             ),

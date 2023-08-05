@@ -76,7 +76,7 @@ class Social extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(100),
                                 ),
                                 child: Image.network(
-                                    'https://s3-alpha-sig.figma.com/img/8421/5146/30a8774fabbfd91f525eac607816b038?Expires=1690761600&Signature=VVvbhz2VxhCTYkzdoIrf0lgt4P2zlwQEb1LvfafGbIJe8w9jEin7IpJz3xCSPIXlLqVM-aT6fNBUarCrrisk9YpPL2DXPHhl4xzyWTId~dKd9Cwe09pIm0eawm77sC-e0Jjy4K-xkL4DLc-hLMzIgAODIjz9hJdtWuOrHgIcDauspYdCRxV16aRaYqKBKU43XIYF2NuHx9Jo0Nrb6yVHqVCP9xkCbW6RGVuFj2kI5YEbU06SpwYzm2XJ-CtnGQBALh-q9eLPZ7iopfeNI0jTqJXri55g-4RqHH8VoO~nYDP7wuqe5mRyUydeKCNcRuXjuDcPmOMkS60W1yl3OvAS0Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                    'https://s3-alpha-sig.figma.com/img/8421/5146/30a8774fabbfd91f525eac607816b038?Expires=1691971200&Signature=fC6WWqKyBcz3lAroQTZmiffLywxSD0pc6a4zmR6ZX7nrmXubqPC9Fsq8Tr9W7ZMzfUoFpl691DB47MwvAWn1Aq61M-~6SlscY~Q5JeHD6rl0JuAVx-kvaxQn8jBM~aEjUhs4m5iiKP6gmQtmHMnw39-KQXGNqiA-kxbdMyqBKRFF1TdNic1BdNiz~oAHIo3DClUQA9JluYE1Z7Qj4bAQdXHgV6bSj5cxY1NFlkQkuAcffhZRWRFEZz1Y~Gv8crwSd~aMOYrp5wFOvb6fuC0ubP~mEeIt~zqIfidfe-tE89kim0QvYCLqgsx1xISEnzjfeTq9mxC4Rn6gFUB8xmDIqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                               ),
                               Container(
                                 decoration: BoxDecoration(
@@ -84,7 +84,7 @@ class Social extends StatelessWidget {
                                 width: 22,
                                 height: 22,
                                 child: Image.network(
-                                    'https://s3-alpha-sig.figma.com/img/1b8d/1199/5a0a32d9cbe0340dfd89f6ca032b216a?Expires=1690761600&Signature=eXFSvWUNKd0YkQ5ZGO722R3Y66~JQed3su8kzABkasseFztIflRX5tkgwBNhHqIXwScqdcjdvf2fYbGftA2BDgXMaY8yGTkp44IFykzaDKkkhxmTsowOb48QPfJFKc3ZX7g4mk6-h6-LGLw0qipZCCMPGBzuBrRdMzfvP5QwKwBUTGTiumaVxSAiMGdbs~eF~TPI7rG~EtpTTKoGgBTkB52-0GHLI0m51rRYybhgfg~mEaH7X2yYnKw6VpZD-6Cqj-4IwkDhTMdwFsRm9Kr8FKGTfNEgEB9RCLHbxRmKnjCM5Hs5tmD5mDPw9sKne64yrUF0-HIyZLSk4dN9RMLX5w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                    'https://s3-alpha-sig.figma.com/img/1b8d/1199/5a0a32d9cbe0340dfd89f6ca032b216a?Expires=1691971200&Signature=QtfspD6eX9QjvsdJtrbnmSYiMzQBQx6Xj8JNV90Gg-plFNd1G0sY4kthGJw8k5XrTDGAf2RtriDzzJddGpcr0bMYVRr8jb16qEK3UEEZS0nLXgSvCsm2L0j0nCydthbbL2mbT8VVVh5XQgTdeeutddtAQCyQfpqbRuiQZwEH3K~F0k-wJWIvWVNOUAcNnEtC3GeKirLlze9eGRLqJhtIsnAeVt7rocSHXd6AGkLwAUb1ao1OPzm~S81x0b~Gj3JJurFCxW2Q-GgypGB-Cs2bkYq5qn8ybdsn683XF-TaxOQnh8~ARwuijsnIe0CvOTkmvoNNtH0KPDnz95bbL1B~Bw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                               ),
                               Container(
                                 decoration: BoxDecoration(
@@ -92,7 +92,7 @@ class Social extends StatelessWidget {
                                 width: 22,
                                 height: 22,
                                 child: Image.network(
-                                    'https://s3-alpha-sig.figma.com/img/b6eb/7eda/649cde0567e3f9b32eff3a4b9b416ead?Expires=1690761600&Signature=YuR58Gk8kVXzK8B4a-5fOxTJHsJDpfRV0gPdB68WgeWFSl-rQIqIRNiOfKK3JHbp-crE~9vbaFYccDlCxF~R5jf3BX1a3HfV2GMfxO-dBulvwQw4rFXRGb9Tvs8ZrhczJ2UyKIjc4gzluqxJmvsJamg~Tptv50udb~ptwAvlf-nkfzzcDl7hD3cj12fDwV7yI7gz84cXsP0w9paS1VXdMOYo6m-2Cvaceg57E6JJ9dJdnA0fgzkKooMxyR8jGKyReI3i6P0WpmxF9gHzhlw3~s2YQyasFLNQwvasBtbeZOCXg4Bfg0DlELZGBDoxAlZSQAKZj-1J2vC6PYcoZ7fz8Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                    'https://s3-alpha-sig.figma.com/img/b6eb/7eda/649cde0567e3f9b32eff3a4b9b416ead?Expires=1691971200&Signature=epJFs0kQGqklDIpLDSBWUBZOjV902WgpYwdCK8hz6jD1HzsW80ZaH2mVOwqqF2RZwonhkwj2~MhSi1JCop8iFRYiktm1NmPxziJegj4mhcHLRrvBXulR0WS8uRpGUWwE9Ak2RtOpSP0v97uVJ3Z95pm7LTQWNc--wscQmoUyPZnSKd-1pwt~lOcMC74xWwFqje~Y4juOD8RmUpP-8q1DPvBaUuG-2-20xFxngaDNpOnirtFt9UWVJFZvc12ELTdGRAMswHjvwa8k4sFQp646ERsqavJsPq3MYp6bLxaEZVnMjQFLxcPu9h98l5Fz3ZNfCY0SP~aSKXGCTIxo5NaGWg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                               )
                             ],
                           ),
@@ -124,7 +124,7 @@ class Social extends StatelessWidget {
                             width: 22,
                             height: 22,
                             child: Image.network(
-                                'https://s3-alpha-sig.figma.com/img/b6eb/7eda/649cde0567e3f9b32eff3a4b9b416ead?Expires=1690761600&Signature=YuR58Gk8kVXzK8B4a-5fOxTJHsJDpfRV0gPdB68WgeWFSl-rQIqIRNiOfKK3JHbp-crE~9vbaFYccDlCxF~R5jf3BX1a3HfV2GMfxO-dBulvwQw4rFXRGb9Tvs8ZrhczJ2UyKIjc4gzluqxJmvsJamg~Tptv50udb~ptwAvlf-nkfzzcDl7hD3cj12fDwV7yI7gz84cXsP0w9paS1VXdMOYo6m-2Cvaceg57E6JJ9dJdnA0fgzkKooMxyR8jGKyReI3i6P0WpmxF9gHzhlw3~s2YQyasFLNQwvasBtbeZOCXg4Bfg0DlELZGBDoxAlZSQAKZj-1J2vC6PYcoZ7fz8Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                'https://s3-alpha-sig.figma.com/img/8421/5146/30a8774fabbfd91f525eac607816b038?Expires=1691971200&Signature=fC6WWqKyBcz3lAroQTZmiffLywxSD0pc6a4zmR6ZX7nrmXubqPC9Fsq8Tr9W7ZMzfUoFpl691DB47MwvAWn1Aq61M-~6SlscY~Q5JeHD6rl0JuAVx-kvaxQn8jBM~aEjUhs4m5iiKP6gmQtmHMnw39-KQXGNqiA-kxbdMyqBKRFF1TdNic1BdNiz~oAHIo3DClUQA9JluYE1Z7Qj4bAQdXHgV6bSj5cxY1NFlkQkuAcffhZRWRFEZz1Y~Gv8crwSd~aMOYrp5wFOvb6fuC0ubP~mEeIt~zqIfidfe-tE89kim0QvYCLqgsx1xISEnzjfeTq9mxC4Rn6gFUB8xmDIqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                           ),
                           const Text(
                             'Amina is speaking ',
@@ -187,7 +187,7 @@ class Social extends StatelessWidget {
                                     borderRadius: BorderRadius.circular(100),
                                   ),
                                   child: Image.network(
-                                      'https://s3-alpha-sig.figma.com/img/8421/5146/30a8774fabbfd91f525eac607816b038?Expires=1690761600&Signature=VVvbhz2VxhCTYkzdoIrf0lgt4P2zlwQEb1LvfafGbIJe8w9jEin7IpJz3xCSPIXlLqVM-aT6fNBUarCrrisk9YpPL2DXPHhl4xzyWTId~dKd9Cwe09pIm0eawm77sC-e0Jjy4K-xkL4DLc-hLMzIgAODIjz9hJdtWuOrHgIcDauspYdCRxV16aRaYqKBKU43XIYF2NuHx9Jo0Nrb6yVHqVCP9xkCbW6RGVuFj2kI5YEbU06SpwYzm2XJ-CtnGQBALh-q9eLPZ7iopfeNI0jTqJXri55g-4RqHH8VoO~nYDP7wuqe5mRyUydeKCNcRuXjuDcPmOMkS60W1yl3OvAS0Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                      'https://s3-alpha-sig.figma.com/img/8421/5146/30a8774fabbfd91f525eac607816b038?Expires=1691971200&Signature=fC6WWqKyBcz3lAroQTZmiffLywxSD0pc6a4zmR6ZX7nrmXubqPC9Fsq8Tr9W7ZMzfUoFpl691DB47MwvAWn1Aq61M-~6SlscY~Q5JeHD6rl0JuAVx-kvaxQn8jBM~aEjUhs4m5iiKP6gmQtmHMnw39-KQXGNqiA-kxbdMyqBKRFF1TdNic1BdNiz~oAHIo3DClUQA9JluYE1Z7Qj4bAQdXHgV6bSj5cxY1NFlkQkuAcffhZRWRFEZz1Y~Gv8crwSd~aMOYrp5wFOvb6fuC0ubP~mEeIt~zqIfidfe-tE89kim0QvYCLqgsx1xISEnzjfeTq9mxC4Rn6gFUB8xmDIqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                                 ),
                                 Container(
                                   decoration: BoxDecoration(
@@ -195,7 +195,7 @@ class Social extends StatelessWidget {
                                   width: 22,
                                   height: 22,
                                   child: Image.network(
-                                      'https://s3-alpha-sig.figma.com/img/1b8d/1199/5a0a32d9cbe0340dfd89f6ca032b216a?Expires=1690761600&Signature=eXFSvWUNKd0YkQ5ZGO722R3Y66~JQed3su8kzABkasseFztIflRX5tkgwBNhHqIXwScqdcjdvf2fYbGftA2BDgXMaY8yGTkp44IFykzaDKkkhxmTsowOb48QPfJFKc3ZX7g4mk6-h6-LGLw0qipZCCMPGBzuBrRdMzfvP5QwKwBUTGTiumaVxSAiMGdbs~eF~TPI7rG~EtpTTKoGgBTkB52-0GHLI0m51rRYybhgfg~mEaH7X2yYnKw6VpZD-6Cqj-4IwkDhTMdwFsRm9Kr8FKGTfNEgEB9RCLHbxRmKnjCM5Hs5tmD5mDPw9sKne64yrUF0-HIyZLSk4dN9RMLX5w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                      'https://s3-alpha-sig.figma.com/img/1b8d/1199/5a0a32d9cbe0340dfd89f6ca032b216a?Expires=1691971200&Signature=QtfspD6eX9QjvsdJtrbnmSYiMzQBQx6Xj8JNV90Gg-plFNd1G0sY4kthGJw8k5XrTDGAf2RtriDzzJddGpcr0bMYVRr8jb16qEK3UEEZS0nLXgSvCsm2L0j0nCydthbbL2mbT8VVVh5XQgTdeeutddtAQCyQfpqbRuiQZwEH3K~F0k-wJWIvWVNOUAcNnEtC3GeKirLlze9eGRLqJhtIsnAeVt7rocSHXd6AGkLwAUb1ao1OPzm~S81x0b~Gj3JJurFCxW2Q-GgypGB-Cs2bkYq5qn8ybdsn683XF-TaxOQnh8~ARwuijsnIe0CvOTkmvoNNtH0KPDnz95bbL1B~Bw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                                 ),
                                 Container(
                                   decoration: BoxDecoration(
@@ -203,7 +203,7 @@ class Social extends StatelessWidget {
                                   width: 22,
                                   height: 22,
                                   child: Image.network(
-                                      'https://s3-alpha-sig.figma.com/img/b6eb/7eda/649cde0567e3f9b32eff3a4b9b416ead?Expires=1690761600&Signature=YuR58Gk8kVXzK8B4a-5fOxTJHsJDpfRV0gPdB68WgeWFSl-rQIqIRNiOfKK3JHbp-crE~9vbaFYccDlCxF~R5jf3BX1a3HfV2GMfxO-dBulvwQw4rFXRGb9Tvs8ZrhczJ2UyKIjc4gzluqxJmvsJamg~Tptv50udb~ptwAvlf-nkfzzcDl7hD3cj12fDwV7yI7gz84cXsP0w9paS1VXdMOYo6m-2Cvaceg57E6JJ9dJdnA0fgzkKooMxyR8jGKyReI3i6P0WpmxF9gHzhlw3~s2YQyasFLNQwvasBtbeZOCXg4Bfg0DlELZGBDoxAlZSQAKZj-1J2vC6PYcoZ7fz8Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                      'https://s3-alpha-sig.figma.com/img/b6eb/7eda/649cde0567e3f9b32eff3a4b9b416ead?Expires=1691971200&Signature=epJFs0kQGqklDIpLDSBWUBZOjV902WgpYwdCK8hz6jD1HzsW80ZaH2mVOwqqF2RZwonhkwj2~MhSi1JCop8iFRYiktm1NmPxziJegj4mhcHLRrvBXulR0WS8uRpGUWwE9Ak2RtOpSP0v97uVJ3Z95pm7LTQWNc--wscQmoUyPZnSKd-1pwt~lOcMC74xWwFqje~Y4juOD8RmUpP-8q1DPvBaUuG-2-20xFxngaDNpOnirtFt9UWVJFZvc12ELTdGRAMswHjvwa8k4sFQp646ERsqavJsPq3MYp6bLxaEZVnMjQFLxcPu9h98l5Fz3ZNfCY0SP~aSKXGCTIxo5NaGWg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                                 )
                               ],
                             ),
@@ -235,7 +235,7 @@ class Social extends StatelessWidget {
                               width: 22,
                               height: 22,
                               child: Image.network(
-                                  'https://s3-alpha-sig.figma.com/img/b6eb/7eda/649cde0567e3f9b32eff3a4b9b416ead?Expires=1690761600&Signature=YuR58Gk8kVXzK8B4a-5fOxTJHsJDpfRV0gPdB68WgeWFSl-rQIqIRNiOfKK3JHbp-crE~9vbaFYccDlCxF~R5jf3BX1a3HfV2GMfxO-dBulvwQw4rFXRGb9Tvs8ZrhczJ2UyKIjc4gzluqxJmvsJamg~Tptv50udb~ptwAvlf-nkfzzcDl7hD3cj12fDwV7yI7gz84cXsP0w9paS1VXdMOYo6m-2Cvaceg57E6JJ9dJdnA0fgzkKooMxyR8jGKyReI3i6P0WpmxF9gHzhlw3~s2YQyasFLNQwvasBtbeZOCXg4Bfg0DlELZGBDoxAlZSQAKZj-1J2vC6PYcoZ7fz8Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                  'https://s3-alpha-sig.figma.com/img/8421/5146/30a8774fabbfd91f525eac607816b038?Expires=1691971200&Signature=fC6WWqKyBcz3lAroQTZmiffLywxSD0pc6a4zmR6ZX7nrmXubqPC9Fsq8Tr9W7ZMzfUoFpl691DB47MwvAWn1Aq61M-~6SlscY~Q5JeHD6rl0JuAVx-kvaxQn8jBM~aEjUhs4m5iiKP6gmQtmHMnw39-KQXGNqiA-kxbdMyqBKRFF1TdNic1BdNiz~oAHIo3DClUQA9JluYE1Z7Qj4bAQdXHgV6bSj5cxY1NFlkQkuAcffhZRWRFEZz1Y~Gv8crwSd~aMOYrp5wFOvb6fuC0ubP~mEeIt~zqIfidfe-tE89kim0QvYCLqgsx1xISEnzjfeTq9mxC4Rn6gFUB8xmDIqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                             ),
                             const Text(
                               'Amina is speaking ',
@@ -301,7 +301,7 @@ class Social extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(100),
                                 ),
                                 child: Image.network(
-                                    'https://s3-alpha-sig.figma.com/img/8421/5146/30a8774fabbfd91f525eac607816b038?Expires=1690761600&Signature=VVvbhz2VxhCTYkzdoIrf0lgt4P2zlwQEb1LvfafGbIJe8w9jEin7IpJz3xCSPIXlLqVM-aT6fNBUarCrrisk9YpPL2DXPHhl4xzyWTId~dKd9Cwe09pIm0eawm77sC-e0Jjy4K-xkL4DLc-hLMzIgAODIjz9hJdtWuOrHgIcDauspYdCRxV16aRaYqKBKU43XIYF2NuHx9Jo0Nrb6yVHqVCP9xkCbW6RGVuFj2kI5YEbU06SpwYzm2XJ-CtnGQBALh-q9eLPZ7iopfeNI0jTqJXri55g-4RqHH8VoO~nYDP7wuqe5mRyUydeKCNcRuXjuDcPmOMkS60W1yl3OvAS0Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                    'https://s3-alpha-sig.figma.com/img/8421/5146/30a8774fabbfd91f525eac607816b038?Expires=1691971200&Signature=fC6WWqKyBcz3lAroQTZmiffLywxSD0pc6a4zmR6ZX7nrmXubqPC9Fsq8Tr9W7ZMzfUoFpl691DB47MwvAWn1Aq61M-~6SlscY~Q5JeHD6rl0JuAVx-kvaxQn8jBM~aEjUhs4m5iiKP6gmQtmHMnw39-KQXGNqiA-kxbdMyqBKRFF1TdNic1BdNiz~oAHIo3DClUQA9JluYE1Z7Qj4bAQdXHgV6bSj5cxY1NFlkQkuAcffhZRWRFEZz1Y~Gv8crwSd~aMOYrp5wFOvb6fuC0ubP~mEeIt~zqIfidfe-tE89kim0QvYCLqgsx1xISEnzjfeTq9mxC4Rn6gFUB8xmDIqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                               ),
                               Container(
                                 decoration: BoxDecoration(
@@ -309,7 +309,7 @@ class Social extends StatelessWidget {
                                 width: 22,
                                 height: 22,
                                 child: Image.network(
-                                    'https://s3-alpha-sig.figma.com/img/1b8d/1199/5a0a32d9cbe0340dfd89f6ca032b216a?Expires=1690761600&Signature=eXFSvWUNKd0YkQ5ZGO722R3Y66~JQed3su8kzABkasseFztIflRX5tkgwBNhHqIXwScqdcjdvf2fYbGftA2BDgXMaY8yGTkp44IFykzaDKkkhxmTsowOb48QPfJFKc3ZX7g4mk6-h6-LGLw0qipZCCMPGBzuBrRdMzfvP5QwKwBUTGTiumaVxSAiMGdbs~eF~TPI7rG~EtpTTKoGgBTkB52-0GHLI0m51rRYybhgfg~mEaH7X2yYnKw6VpZD-6Cqj-4IwkDhTMdwFsRm9Kr8FKGTfNEgEB9RCLHbxRmKnjCM5Hs5tmD5mDPw9sKne64yrUF0-HIyZLSk4dN9RMLX5w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                    'https://s3-alpha-sig.figma.com/img/1b8d/1199/5a0a32d9cbe0340dfd89f6ca032b216a?Expires=1691971200&Signature=QtfspD6eX9QjvsdJtrbnmSYiMzQBQx6Xj8JNV90Gg-plFNd1G0sY4kthGJw8k5XrTDGAf2RtriDzzJddGpcr0bMYVRr8jb16qEK3UEEZS0nLXgSvCsm2L0j0nCydthbbL2mbT8VVVh5XQgTdeeutddtAQCyQfpqbRuiQZwEH3K~F0k-wJWIvWVNOUAcNnEtC3GeKirLlze9eGRLqJhtIsnAeVt7rocSHXd6AGkLwAUb1ao1OPzm~S81x0b~Gj3JJurFCxW2Q-GgypGB-Cs2bkYq5qn8ybdsn683XF-TaxOQnh8~ARwuijsnIe0CvOTkmvoNNtH0KPDnz95bbL1B~Bw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                               ),
                               Container(
                                 decoration: BoxDecoration(
@@ -317,7 +317,7 @@ class Social extends StatelessWidget {
                                 width: 22,
                                 height: 22,
                                 child: Image.network(
-                                    'https://s3-alpha-sig.figma.com/img/b6eb/7eda/649cde0567e3f9b32eff3a4b9b416ead?Expires=1690761600&Signature=YuR58Gk8kVXzK8B4a-5fOxTJHsJDpfRV0gPdB68WgeWFSl-rQIqIRNiOfKK3JHbp-crE~9vbaFYccDlCxF~R5jf3BX1a3HfV2GMfxO-dBulvwQw4rFXRGb9Tvs8ZrhczJ2UyKIjc4gzluqxJmvsJamg~Tptv50udb~ptwAvlf-nkfzzcDl7hD3cj12fDwV7yI7gz84cXsP0w9paS1VXdMOYo6m-2Cvaceg57E6JJ9dJdnA0fgzkKooMxyR8jGKyReI3i6P0WpmxF9gHzhlw3~s2YQyasFLNQwvasBtbeZOCXg4Bfg0DlELZGBDoxAlZSQAKZj-1J2vC6PYcoZ7fz8Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                    'https://s3-alpha-sig.figma.com/img/b6eb/7eda/649cde0567e3f9b32eff3a4b9b416ead?Expires=1691971200&Signature=epJFs0kQGqklDIpLDSBWUBZOjV902WgpYwdCK8hz6jD1HzsW80ZaH2mVOwqqF2RZwonhkwj2~MhSi1JCop8iFRYiktm1NmPxziJegj4mhcHLRrvBXulR0WS8uRpGUWwE9Ak2RtOpSP0v97uVJ3Z95pm7LTQWNc--wscQmoUyPZnSKd-1pwt~lOcMC74xWwFqje~Y4juOD8RmUpP-8q1DPvBaUuG-2-20xFxngaDNpOnirtFt9UWVJFZvc12ELTdGRAMswHjvwa8k4sFQp646ERsqavJsPq3MYp6bLxaEZVnMjQFLxcPu9h98l5Fz3ZNfCY0SP~aSKXGCTIxo5NaGWg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                               )
                             ],
                           ),
@@ -349,7 +349,7 @@ class Social extends StatelessWidget {
                             width: 22,
                             height: 22,
                             child: Image.network(
-                                'https://s3-alpha-sig.figma.com/img/b6eb/7eda/649cde0567e3f9b32eff3a4b9b416ead?Expires=1690761600&Signature=YuR58Gk8kVXzK8B4a-5fOxTJHsJDpfRV0gPdB68WgeWFSl-rQIqIRNiOfKK3JHbp-crE~9vbaFYccDlCxF~R5jf3BX1a3HfV2GMfxO-dBulvwQw4rFXRGb9Tvs8ZrhczJ2UyKIjc4gzluqxJmvsJamg~Tptv50udb~ptwAvlf-nkfzzcDl7hD3cj12fDwV7yI7gz84cXsP0w9paS1VXdMOYo6m-2Cvaceg57E6JJ9dJdnA0fgzkKooMxyR8jGKyReI3i6P0WpmxF9gHzhlw3~s2YQyasFLNQwvasBtbeZOCXg4Bfg0DlELZGBDoxAlZSQAKZj-1J2vC6PYcoZ7fz8Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                                'https://s3-alpha-sig.figma.com/img/8421/5146/30a8774fabbfd91f525eac607816b038?Expires=1691971200&Signature=fC6WWqKyBcz3lAroQTZmiffLywxSD0pc6a4zmR6ZX7nrmXubqPC9Fsq8Tr9W7ZMzfUoFpl691DB47MwvAWn1Aq61M-~6SlscY~Q5JeHD6rl0JuAVx-kvaxQn8jBM~aEjUhs4m5iiKP6gmQtmHMnw39-KQXGNqiA-kxbdMyqBKRFF1TdNic1BdNiz~oAHIo3DClUQA9JluYE1Z7Qj4bAQdXHgV6bSj5cxY1NFlkQkuAcffhZRWRFEZz1Y~Gv8crwSd~aMOYrp5wFOvb6fuC0ubP~mEeIt~zqIfidfe-tE89kim0QvYCLqgsx1xISEnzjfeTq9mxC4Rn6gFUB8xmDIqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                           ),
                           const Text(
                             'Amina is speaking ',

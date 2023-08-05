@@ -44,7 +44,7 @@ class Second3 extends StatelessWidget {
             width: 170,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(100),
-              color: const Color.fromRGBO(0, 97, 117, 1),
+              color: const Color.fromRGBO(219, 233, 236, 1),
             ),
             child: Image.network(
                 'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1691971200&Signature=oXm6wvSeKd4i4WfD-aRskKK-58jtYTW-XYkTftObKWUeZfzfgpAwKZYaohpLt0MBw82VU5YlG~fctAiGIp0ObcdWVGyYCmw3MvmJ3lhVKbsot0E7I4Yj7oKUFXbsEI66ft7I1HnObHYTnPUvJSxN3GkBlnQBQvwbqOw5PdMpqSh7rSotXlkIzegrc5BoVDVe1c0RDY0XuwNujBzEZkvINqFveCLEOgpRtpiudlZ09No~ZM0SGAY4~OHfND1WsXafgZtjeqxw7hsquWDwqke0ebT1Gw0NGlTE9DsYJo9vU88c-uPiACvCzrISxt3tB8mk65NdSbiGRgW7zpQY~Ms-6w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
@@ -92,7 +92,7 @@ class Second3 extends StatelessWidget {
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   color: const Color.fromRGBO(28, 103, 88, 1)),
-              width: 321,
+              width: 290,
               height: 49,
               child: const Center(
                   child: Text(
