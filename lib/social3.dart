@@ -97,7 +97,7 @@ class Social3 extends StatelessWidget {
                   color: const Color.fromRGBO(219, 233, 236, 1),
                 ),
                 child: Image.network(
-                    'https://s3-alpha-sig.figma.com/img/2a67/6dd7/726665b921d7de50c7560ec1bda43c70?Expires=1690761600&Signature=bdZskj~X4LJHqtrSzL88owBv8aK98PPXCNoF-CAeus8AXmJKhqQusKIzfWpPvp4Ul~IiN1NBf3VoIEIPci2DeyW40d7E4jmyznL5yTHM6hmX4xCO-aKbArKAdHRmrDv3tY~DNlOZGuIUsEb6w1dk-C66oYS9YZ9y0SJbixXYNycVu04LlaqgDWkYX1RMU8eldZygOJUsZqCeLvVMFtcRLrgjQfvW~u-uGLGdkfEguuSh0~-o6~BtGRLNkfhIB59HLV0twGhNt7hF6KlCBPW8xfzf4fePxEdpDR-zmgltjFZzIbCuI-9u~PbK3cPKL~n7BdC8OaeL7vHSbsyYWoR2vA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                    'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
               ),
               const Text(
                 'Mark',
@@ -113,7 +113,7 @@ class Social3 extends StatelessWidget {
                     color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(
@@ -129,10 +129,10 @@ class Social3 extends StatelessWidget {
                   width: 49,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(0, 97, 117, 1),
+                    color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(
@@ -149,7 +149,7 @@ class Social3 extends StatelessWidget {
                     color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(
@@ -160,7 +160,8 @@ class Social3 extends StatelessWidget {
           ),
           Row(
             children: [
-              const Padding(padding: EdgeInsets.symmetric(horizontal: 55)),
+              const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 55, vertical: 20)),
               Container(
                 height: 49,
                 width: 49,
@@ -169,7 +170,7 @@ class Social3 extends StatelessWidget {
                   color: const Color.fromRGBO(219, 233, 236, 1),
                 ),
                 child: Image.network(
-                    'https://s3-alpha-sig.figma.com/img/2a67/6dd7/726665b921d7de50c7560ec1bda43c70?Expires=1690761600&Signature=bdZskj~X4LJHqtrSzL88owBv8aK98PPXCNoF-CAeus8AXmJKhqQusKIzfWpPvp4Ul~IiN1NBf3VoIEIPci2DeyW40d7E4jmyznL5yTHM6hmX4xCO-aKbArKAdHRmrDv3tY~DNlOZGuIUsEb6w1dk-C66oYS9YZ9y0SJbixXYNycVu04LlaqgDWkYX1RMU8eldZygOJUsZqCeLvVMFtcRLrgjQfvW~u-uGLGdkfEguuSh0~-o6~BtGRLNkfhIB59HLV0twGhNt7hF6KlCBPW8xfzf4fePxEdpDR-zmgltjFZzIbCuI-9u~PbK3cPKL~n7BdC8OaeL7vHSbsyYWoR2vA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                    'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
               ),
               const Text(
                 'Mark',
@@ -185,7 +186,7 @@ class Social3 extends StatelessWidget {
                     color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(
@@ -201,10 +202,10 @@ class Social3 extends StatelessWidget {
                   width: 49,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(0, 97, 117, 1),
+                    color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(
@@ -221,7 +222,7 @@ class Social3 extends StatelessWidget {
                     color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(
@@ -242,7 +243,7 @@ class Social3 extends StatelessWidget {
                   color: const Color.fromRGBO(219, 233, 236, 1),
                 ),
                 child: Image.network(
-                    'https://s3-alpha-sig.figma.com/img/2a67/6dd7/726665b921d7de50c7560ec1bda43c70?Expires=1690761600&Signature=bdZskj~X4LJHqtrSzL88owBv8aK98PPXCNoF-CAeus8AXmJKhqQusKIzfWpPvp4Ul~IiN1NBf3VoIEIPci2DeyW40d7E4jmyznL5yTHM6hmX4xCO-aKbArKAdHRmrDv3tY~DNlOZGuIUsEb6w1dk-C66oYS9YZ9y0SJbixXYNycVu04LlaqgDWkYX1RMU8eldZygOJUsZqCeLvVMFtcRLrgjQfvW~u-uGLGdkfEguuSh0~-o6~BtGRLNkfhIB59HLV0twGhNt7hF6KlCBPW8xfzf4fePxEdpDR-zmgltjFZzIbCuI-9u~PbK3cPKL~n7BdC8OaeL7vHSbsyYWoR2vA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                    'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
               ),
               const Text(
                 'Mark',
@@ -258,7 +259,7 @@ class Social3 extends StatelessWidget {
                     color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(
@@ -274,10 +275,10 @@ class Social3 extends StatelessWidget {
                   width: 49,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(0, 97, 117, 1),
+                    color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(
@@ -294,7 +295,7 @@ class Social3 extends StatelessWidget {
                     color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(
@@ -305,7 +306,8 @@ class Social3 extends StatelessWidget {
           ),
           Row(
             children: [
-              const Padding(padding: EdgeInsets.symmetric(horizontal: 55)),
+              const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 55, vertical: 20)),
               Container(
                 height: 49,
                 width: 49,
@@ -314,7 +316,7 @@ class Social3 extends StatelessWidget {
                   color: const Color.fromRGBO(219, 233, 236, 1),
                 ),
                 child: Image.network(
-                    'https://s3-alpha-sig.figma.com/img/2a67/6dd7/726665b921d7de50c7560ec1bda43c70?Expires=1690761600&Signature=bdZskj~X4LJHqtrSzL88owBv8aK98PPXCNoF-CAeus8AXmJKhqQusKIzfWpPvp4Ul~IiN1NBf3VoIEIPci2DeyW40d7E4jmyznL5yTHM6hmX4xCO-aKbArKAdHRmrDv3tY~DNlOZGuIUsEb6w1dk-C66oYS9YZ9y0SJbixXYNycVu04LlaqgDWkYX1RMU8eldZygOJUsZqCeLvVMFtcRLrgjQfvW~u-uGLGdkfEguuSh0~-o6~BtGRLNkfhIB59HLV0twGhNt7hF6KlCBPW8xfzf4fePxEdpDR-zmgltjFZzIbCuI-9u~PbK3cPKL~n7BdC8OaeL7vHSbsyYWoR2vA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                    'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
               ),
               const Text(
                 'Mark',
@@ -330,7 +332,7 @@ class Social3 extends StatelessWidget {
                     color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(
@@ -346,10 +348,10 @@ class Social3 extends StatelessWidget {
                   width: 49,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(0, 97, 117, 1),
+                    color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(
@@ -366,7 +368,80 @@ class Social3 extends StatelessWidget {
                     color: const Color.fromRGBO(219, 233, 236, 1),
                   ),
                   child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/6c6e/89ea/a8f366ba609d5e068c6d25d5adc3239a?Expires=1690761600&Signature=QK0yRUW3dIsx-OuQqxXMBIj~mWVV~Ftg0O4bgDORy8hoQwm5CfWtap~UXmGGZ427bTjovHWLonOF3DFNpy90H8sf3p0imkmkKjwrsZbANvjL79uxGI0ZvVOPNoyKRnFYgihpTO3P~cJlCML7iezrpBFkK-4~BGiPpdC8nEKXHjyJU71NMWFRJpuy6qipvQYrSEtA8ua7oC5SAYWlKa76RvSN5xhDZ6kP2ZxLmh18a01Ta6pETHgH2IzK~07bl9le-QBDJqMDYnAVBk2zOaiRmYo1et0yV-uLVT-fkNkGNIcDaZC7O7faiCsB81BdpRuqb1M9dfzc~RhzHwuUPFgoSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                ),
+              ),
+              const Text(
+                'Mark',
+                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 55, vertical: 50)),
+              Container(
+                height: 49,
+                width: 49,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(100),
+                  color: const Color.fromRGBO(219, 233, 236, 1),
+                ),
+                child: Image.network(
+                    'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+              ),
+              const Text(
+                'Mark',
+                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 0),
+                child: Container(
+                  height: 49,
+                  width: 49,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(100),
+                    color: const Color.fromRGBO(219, 233, 236, 1),
+                  ),
+                  child: Image.network(
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                ),
+              ),
+              const Text(
+                'Mark',
+                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 0,
+                ),
+                child: Container(
+                  height: 49,
+                  width: 49,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(100),
+                    color: const Color.fromRGBO(219, 233, 236, 1),
+                  ),
+                  child: Image.network(
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+                ),
+              ),
+              const Text(
+                'Mark',
+                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 0),
+                child: Container(
+                  height: 49,
+                  width: 49,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(100),
+                    color: const Color.fromRGBO(219, 233, 236, 1),
+                  ),
+                  child: Image.network(
+                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
                 ),
               ),
               const Text(

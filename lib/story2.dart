@@ -6,7 +6,7 @@ class Story2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Column(children: [
+        body: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
       const Padding(
         padding: EdgeInsets.symmetric(vertical: 50),
         child: Center(
@@ -16,11 +16,14 @@ class Story2 extends StatelessWidget {
           ),
         ),
       ),
+      SizedBox(
+        height: 380,
+      ),
       Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Padding(
-            padding: const EdgeInsets.symmetric(vertical: 260),
+            padding: const EdgeInsets.symmetric(vertical: 0),
             child: Container(
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
@@ -68,9 +71,12 @@ class Story2 extends StatelessWidget {
                   'https://s3-alpha-sig.figma.com/img/094f/e126/f88f71834aecee73b6d0149171318aef?Expires=1691971200&Signature=p1TNSevTHuyq1w~g6f7wucJttxOD1E60oXdCIvIzYYErPopKF3fYVaqTYU67~POukCk-ztgFPKGEzLs3pcyL1zqcKW9csz6tSmPSvEb4oyM1TH9A2XPT0NzBNLRslZ5hzlnHkCbnqFlN~83ez-dM2IZ7fSrAOrjaNwzkqnA1ID8pS4Q01CBfhdTIChzo~Y9j~VUKB~9gfS~qcCHHLSFINZ8gkXokh7LZFmsjmlkfDfssRRL7XTNyrQM-qSvwnZh-D1v2y1Y9weGN7wh0iJVTkE2pvD0hj9gS4hyW8vula5xWRss2Ax0FxfW~HKhTe3hzAIeRmCo2UKqyX-yvQH2irw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4')),
         ],
       ),
-      const Text(
-        'Hold for video,tap for photo',
-        style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
+      const Padding(
+        padding: EdgeInsets.symmetric(vertical: 30),
+        child: Text(
+          'Hold for video,tap for photo',
+          style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
+        ),
       )
     ]));
   }

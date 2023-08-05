@@ -7,6 +7,7 @@ class Story extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           const Padding(
             padding: EdgeInsets.symmetric(vertical: 50),
@@ -17,13 +18,13 @@ class Story extends StatelessWidget {
               ),
             ),
           ),
+          SizedBox(
+            height: 380,
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Padding(
-                padding: EdgeInsets.symmetric(vertical: 280),
-                child: Icon(Icons.image_outlined),
-              ),
+              const Center(child: Icon(Icons.image_outlined)),
               Center(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 50),
@@ -39,23 +40,15 @@ class Story extends StatelessWidget {
               const Icon(Icons.camera_alt_outlined)
             ],
           ),
-          const Text(
-            'Hold for video,tap for photo',
-            style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
+          const Padding(
+            padding: EdgeInsets.symmetric(vertical: 30),
+            child: Text(
+              'Hold for video,tap for photo',
+              style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
+            ),
           )
         ],
       ),
     );
   }
 }
-//  Padding(
-//               padding: const EdgeInsets.symmetric(horizontal: 100),
-//               child: Container(
-//                   height: 49,
-//                   width: 49,
-//                   decoration: BoxDecoration(
-//                     borderRadius: BorderRadius.circular(50),
-//                     color: Color.fromRGBO(0, 97, 117, 1),
-//                   ),
-//                   child: Icon(Icons.add)),
-//             ),
