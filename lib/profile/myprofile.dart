@@ -25,10 +25,13 @@ class MyProfile extends StatelessWidget {
             ),
             child: Row(
               children: [
-                Icon(Icons.arrow_back_ios),
+                Padding(
+                  padding: EdgeInsets.all(15),
+                  child: Icon(Icons.arrow_back_ios),
+                ),
                 Center(
                   child: Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 150),
+                    padding: EdgeInsets.symmetric(horizontal: 130),
                     child: Text(
                       'My Profile',
                       style: TextStyle(

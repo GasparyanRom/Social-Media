@@ -9,7 +9,7 @@ class EditProfile extends StatelessWidget {
       body: Column(
         children: [
           const Padding(
-            padding: EdgeInsets.all(8.0),
+            padding: EdgeInsets.all(15.0),
             child: Row(
               children: [
                 Icon(Icons.arrow_back_ios),
@@ -35,7 +35,7 @@ class EditProfile extends StatelessWidget {
                 child: Image.asset('images/14.png'),
               ),
               const Padding(
-                padding: EdgeInsets.symmetric(horizontal: 25),
+                padding: EdgeInsets.symmetric(horizontal: 15),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
