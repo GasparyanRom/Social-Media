@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:socialmedia/second3.dart';
+import 'package:socialmedia/onboarding/third_screen.dart';
 
-class Second2 extends StatelessWidget {
-  const Second2({super.key});
+class SecondScreen extends StatelessWidget {
+  const SecondScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +40,7 @@ class Second2 extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: ((context) => const Second3()),
+                        builder: ((context) => const ThirdScreen()),
                       ),
                     );
                   },

@@ -10,11 +10,11 @@ import 'package:socialmedia/chats/chat.dart';
 import 'package:socialmedia/chats/chats%20list.dart';
 import 'package:socialmedia/posts/posts_screen.dart';
 import 'package:socialmedia/posts/story_screen.dart';
-import 'package:socialmedia/second.dart';
-import 'package:socialmedia/second2.dart';
-import 'package:socialmedia/social.dart';
-import 'package:socialmedia/story.dart';
-import 'package:socialmedia/story2.dart';
+import 'package:socialmedia/onboarding/first_screen.dart';
+import 'package:socialmedia/onboarding/second_screen.dart';
+import 'package:socialmedia/Social%20Screens/social_Screen.dart';
+import 'package:socialmedia/add_to_story/story.dart';
+import 'package:socialmedia/add_to_story/story2.dart';
 // >>>>>>> master
 
 void main() {
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
 // <<<<<<< vahe_brench
 //       home: Social(),
 // =======
-      home: Story2(),
+      home: postscreen(),
 // >>>>>>> master
     );
   }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Second3 extends StatelessWidget {
-  const Second3({super.key});
+class ThirdScreen extends StatelessWidget {
+  const ThirdScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,32 +34,22 @@ class Second3 extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 20),
-                child: InkWell(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: ((context) => const Second3()),
-                      ),
-                    );
-                  },
-                  child: Container(
-                    decoration: BoxDecoration(
-                      color: const Color.fromRGBO(28, 103, 88, 1),
-                      borderRadius: BorderRadius.circular(
-                        10,
-                      ),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: const Color.fromRGBO(28, 103, 88, 1),
+                    borderRadius: BorderRadius.circular(
+                      10,
                     ),
-                    width: 320,
-                    height: 49,
-                    child: const Center(
-                      child: Text(
-                        'Continue',
-                        style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.w600,
-                            color: Colors.white),
-                      ),
+                  ),
+                  width: 320,
+                  height: 49,
+                  child: const Center(
+                    child: Text(
+                      'Continue',
+                      style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.white),
                     ),
                   ),
                 ),
