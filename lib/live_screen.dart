@@ -11,14 +11,16 @@ class livescreen extends StatelessWidget {
           children: [
             Stack(children: [
               Container(
-                  height: 850,
-                  width: double.infinity,
-                  child: Positioned(
-                      top: 20,
-                      child: Image.asset(
-                        'images/live.jpg',
-                        fit: BoxFit.cover,
-                      ))),
+                height: 850,
+                width: double.infinity,
+                child: Positioned(
+                  top: 20,
+                  child: Image.asset(
+                    'images/live.jpg',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
               Container(
                 height: 850,
                 width: double.infinity,

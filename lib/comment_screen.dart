@@ -12,7 +12,7 @@ class commentscreen extends StatelessWidget {
             Container(
               height: 100,
               width: 100,
-              child: Row(
+              child: const Row(
                 children: [
                   Text(
                     'Comment',
@@ -31,23 +31,36 @@ class commentscreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10)),
                 child: Column(
                   children: [
-                    Row(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 8),
-                          child: Image.asset('images/user.png'),
-                        ),
-                        const Text(
-                          'El kamcy speaks',
-                          style: TextStyle(
-                              fontSize: 15, fontWeight: FontWeight.w600),
-                        )
-                      ],
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 8),
+                            child: Image.asset('images/user.png'),
+                          ),
+                          const Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'El kamcy speaks',
+                                style: TextStyle(
+                                    fontSize: 15, fontWeight: FontWeight.w600),
+                              ),
+                              Text(
+                                '1hr ago',
+                                style: TextStyle(
+                                    fontSize: 12, fontWeight: FontWeight.w500),
+                              ),
+                            ],
+                          )
+                        ],
+                      ),
                     ),
                     Text(
                       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra ',
                       style:
-                          TextStyle(fontSize: 10, fontWeight: FontWeight.w400),
+                          TextStyle(fontSize: 12, fontWeight: FontWeight.w400),
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 50),

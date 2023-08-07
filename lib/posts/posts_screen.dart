@@ -34,7 +34,7 @@ class postscreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Padding(
+            const Padding(
               padding: const EdgeInsets.all(16.0),
               child: TextField(
                 decoration: InputDecoration(
@@ -83,7 +83,7 @@ class postscreen extends StatelessWidget {
                           ),
                           Text(
                             names[index].name,
-                            style: TextStyle(
+                            style: const TextStyle(
                                 fontSize: 12, fontWeight: FontWeight.w700),
                           )
                         ],
@@ -99,7 +99,7 @@ class postscreen extends StatelessWidget {
                 width: 400,
                 height: 400,
                 decoration: BoxDecoration(
-                    color: Color.fromRGBO(196, 196, 196, 1),
+                    color: const Color.fromRGBO(196, 196, 196, 1),
                     borderRadius: BorderRadius.circular(10)),
                 child: Column(
                   children: [
@@ -116,7 +116,7 @@ class postscreen extends StatelessWidget {
                         )
                       ],
                     ),
-                    Text(
+                    const Text(
                       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra ',
                       style:
                           TextStyle(fontSize: 10, fontWeight: FontWeight.w400),
@@ -125,7 +125,7 @@ class postscreen extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(vertical: 50),
                       child: Image.asset('images/post.png'),
                     ),
-                    Row(
+                    const Row(
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [Icon(Icons.heart_broken), Icon(Icons.chat)],
                     )
@@ -139,7 +139,7 @@ class postscreen extends StatelessWidget {
                 width: 400,
                 height: 400,
                 decoration: BoxDecoration(
-                    color: Color.fromRGBO(196, 196, 196, 1),
+                    color: const Color.fromRGBO(196, 196, 196, 1),
                     borderRadius: BorderRadius.circular(10)),
                 child: Column(
                   children: [
@@ -149,14 +149,14 @@ class postscreen extends StatelessWidget {
                           padding: const EdgeInsets.symmetric(horizontal: 8),
                           child: Image.asset('images/aabb.png'),
                         ),
-                        Text(
+                        const Text(
                           'Emmanuel kamcy',
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.w600),
                         )
                       ],
                     ),
-                    Text(
+                    const Text(
                       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra ',
                       style:
                           TextStyle(fontSize: 10, fontWeight: FontWeight.w400),
@@ -165,7 +165,7 @@ class postscreen extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(vertical: 50),
                       child: Image.asset('images/post.png'),
                     ),
-                    Row(
+                    const Row(
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [Icon(Icons.heart_broken), Icon(Icons.chat)],
                     )
