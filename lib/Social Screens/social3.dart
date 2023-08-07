@@ -14,15 +14,14 @@ class Social3 extends StatelessWidget {
               const Padding(padding: EdgeInsets.symmetric()),
               Center(
                 child: Container(
-                  height: 57,
-                  width: 57,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(0, 97, 117, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/b6eb/7eda/649cde0567e3f9b32eff3a4b9b416ead?Expires=1691366400&Signature=o7FMHT-97OwQ0ozxRvmXqEB9LclQeffrQViFpaBCqV8l-p6qnL-axISjB43ZVhImN04lm4MuNjlQSamjSHMWxZ0RU8V2PZHpQpUWF3mWJtSxqX8b6yEpM-9WyuC3pbSHZCLcKTSpMLJqiD8PkGkvKRbyzLjHVSqmF0-tjzWqBtKWgslKFr-v2-KKixCPCH8hFzBMkIsUluWamLVc6JN~WuvLqFHM45dJK~Bv-YB1z6ZLKNe2kSI~-848~NgNJxPo9jzVXturg~frmeTwiYg6vvUQ-pt9ACBB6ewAUp-dfN9lWrjV9WgbOpZdExxtix-YLRf~5d6rDdD4O-Noy-Y3-w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
+                    height: 57,
+                    width: 57,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(100),
+                    ),
+                    child: Image.asset(
+                      'images/123.png',
+                    )),
               ),
               Padding(
                 padding:
@@ -85,370 +84,42 @@ class Social3 extends StatelessWidget {
               ),
             ],
           ),
-          Row(
-            children: [
-              const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 55, vertical: 50)),
-              Container(
-                height: 49,
-                width: 49,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(100),
-                  color: const Color.fromRGBO(219, 233, 236, 1),
-                ),
-                child: Image.network(
-                    'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
+          GridView.builder(
+            shrinkWrap: true,
+            itemCount: 20,
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisSpacing: 3,
+              crossAxisCount: 4,
+              mainAxisSpacing: 3,
+            ),
+            itemBuilder: (context, index) {
+              return Column(
+                children: [
+                  Container(
+                    decoration:
+                        BoxDecoration(borderRadius: BorderRadius.circular(555)),
+                    height: 40,
+                    width: 40,
+                    child: Row(
+                      children: [
+                        Image.asset(
+                          'images/b.png',
+                          fit: BoxFit.cover,
+                        ),
+                         const Padding(
+                          padding:  EdgeInsets.symmetric(horizontal: 10),
+                          child:  Text(
+                            'Mark',
+                            style: TextStyle(
+                                fontSize: 12, fontWeight: FontWeight.w600),
+                          ),
+                        )
+                      ],
+                    ),
                   ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 0,
-                ),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 55, vertical: 20)),
-              Container(
-                height: 49,
-                width: 49,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(100),
-                  color: const Color.fromRGBO(219, 233, 236, 1),
-                ),
-                child: Image.network(
-                    'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 0,
-                ),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 55, vertical: 50)),
-              Container(
-                height: 49,
-                width: 49,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(100),
-                  color: const Color.fromRGBO(219, 233, 236, 1),
-                ),
-                child: Image.network(
-                    'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 0,
-                ),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 55, vertical: 20)),
-              Container(
-                height: 49,
-                width: 49,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(100),
-                  color: const Color.fromRGBO(219, 233, 236, 1),
-                ),
-                child: Image.network(
-                    'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 0,
-                ),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 55, vertical: 50)),
-              Container(
-                height: 49,
-                width: 49,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(100),
-                  color: const Color.fromRGBO(219, 233, 236, 1),
-                ),
-                child: Image.network(
-                    'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 0,
-                ),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0),
-                child: Container(
-                  height: 49,
-                  width: 49,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(100),
-                    color: const Color.fromRGBO(219, 233, 236, 1),
-                  ),
-                  child: Image.network(
-                      'https://s3-alpha-sig.figma.com/img/0f9b/b1c0/0fd78306bf5e3a47219c8ded7a13d42d?Expires=1691971200&Signature=AJO3UrlnKYUNdqLNc0hozhsElCopNjRogAd396vR248~5P5qTS-NopPh~K8XWvEWXz5HHk6TXP9Ydego0BVqUcMMSBZWQisfdoPInYEj3ElH4qq54w25my5EfwoMJJUUdvBm0sbBpOK4ckUmHjnQMnXiTGbaMRMT5Y41XLo7xzQOImJMS2eWM5vBb8OVjhKdxVink6NkmJHepD53nekl4DGLFeYS8v3iqXgeZej1sEB6vdDPnmkIkgsBR0s-rZJQAnmtOU5AHhenTi3TzhChVH37eOjoeURbWRg50eGYSnRZsYHosd8DSL-sadoBAmPtmvWRqB2U0WUjEscM8AVIdw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                ),
-              ),
-              const Text(
-                'Mark',
-                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
-              ),
-            ],
+                ],
+              );
+            },
           ),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 30),
