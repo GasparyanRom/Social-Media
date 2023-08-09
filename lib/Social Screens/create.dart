@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Social2 extends StatelessWidget {
-  const Social2({super.key});
+class Create extends StatelessWidget {
+  const Create({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,20 +9,23 @@ class Social2 extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Padding(
-            padding: EdgeInsets.symmetric(vertical: 30),
-            child: Center(
-              child: Text(
-                'Create a lounge',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+          const Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 45, vertical: 20),
+                child: Text(
+                  'Create a lounge',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+                ),
               ),
-            ),
+            ],
           ),
           const Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 90),
+                padding: EdgeInsets.symmetric(horizontal: 50),
                 child: Text(
                   'Name',
                   style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
@@ -48,7 +51,7 @@ class Social2 extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 90),
+                padding: EdgeInsets.symmetric(horizontal: 50),
                 child: Text(
                   'Description',
                   style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
@@ -66,6 +69,7 @@ class Social2 extends StatelessWidget {
                 width: 317,
                 child: TextField(
                   decoration: InputDecoration(
+                      labelText: 'What du u wantto talk about',
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10))),
                 )),

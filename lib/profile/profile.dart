@@ -12,7 +12,7 @@ class Profile extends StatelessWidget {
         name: 'Mark',
       ),
       Followers(
-        imageUrl: 'images/3.png',
+        imageUrl: 'images/2.png',
         name: 'Johnson',
       ),
       Followers(
@@ -20,11 +20,11 @@ class Profile extends StatelessWidget {
         name: 'Joyco',
       ),
       Followers(
-        imageUrl: 'images/1.png',
+        imageUrl: 'images/2.png',
         name: 'Joy',
       ),
       Followers(
-        imageUrl: 'images/4.png',
+        imageUrl: 'images/2.png',
         name: 'Ann',
       ),
     ];

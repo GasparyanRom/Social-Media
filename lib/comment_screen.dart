@@ -9,15 +9,19 @@ class commentscreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
-              height: 100,
-              width: 100,
-              child: const Row(
+            const Padding(
+              padding: EdgeInsets.symmetric(vertical: 30),
+              child: Row(
                 children: [
-                  Text(
-                    'Comment',
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
-                  )
+                  Icon(Icons.arrow_back_ios),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 100),
+                    child: Text(
+                      'Comment',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -75,7 +79,7 @@ class commentscreen extends StatelessWidget {
               ),
             ),
             Container(
-              color: Colors.amber,
+              color: Color.fromRGBO(255, 255, 255, 1),
               height: 100,
               width: 400,
               child: Column(
@@ -106,7 +110,7 @@ class commentscreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                color: Colors.amber,
+                color: Color.fromRGBO(255, 255, 255, 1),
                 height: 100,
                 width: 400,
                 child: Column(
@@ -137,7 +141,7 @@ class commentscreen extends StatelessWidget {
               ),
             ),
             Container(
-              color: Colors.amber,
+              color: Color.fromRGBO(255, 255, 255, 1),
               height: 100,
               width: 400,
               child: Column(

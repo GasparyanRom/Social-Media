@@ -1,6 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:socialmedia/Social%20Screens/social3.dart';
+import 'package:socialmedia/Social%20Screens/create.dart';
+import 'package:socialmedia/Social%20Screens/Mark.dart';
+import 'package:socialmedia/Social%20Screens/social_Screen.dart';
+import 'package:socialmedia/comment_screen.dart';
 import 'package:socialmedia/notific.dart';
 import 'package:socialmedia/onboarding/first_screen.dart';
 import 'package:socialmedia/onboarding/second_screen.dart';
@@ -38,7 +41,7 @@ class MyApp extends StatelessWidget {
 // // <<<<<<< vahe_brench
 // //       home: Social(),
 // // =======
-      home: Social3(),
+      home: postscreen(),
 // >>>>>>> master
 // =======
 //       home: Story2(),
