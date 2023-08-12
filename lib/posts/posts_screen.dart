@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:socialmedia/chats/chat_class.dart';
 
@@ -6,6 +7,7 @@ class postscreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final authData = FirebaseAuth.instance;
     final List names = [
       chatusers(
         imageUrl: 'images/story user 1.png',
@@ -34,6 +36,18 @@ class postscreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 25),
+                  child: InkWell(
+                      onTap: () {
+                        authData.signOut();
+                      },
+                      child: Icon(Icons.arrow_back_ios)),
+                ),
+              ],
+            ),
             const Padding(
               padding: const EdgeInsets.all(16.0),
               child: TextField(

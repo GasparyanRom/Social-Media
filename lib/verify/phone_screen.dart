@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:socialmedia/verify/country_class.dart';
 
@@ -15,6 +16,9 @@ class PhoneScreen extends StatelessWidget {
       Country(country: 'Russia', hamar: '+7'),
       Country(country: 'China', hamar: '+86'),
     ];
+    final phonenumberController = TextEditingController();
+    bool lading = false;
+    final authService = FirebaseAuth.instance;
     return Scaffold(
       body: Column(
         children: [
@@ -57,6 +61,7 @@ class PhoneScreen extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(15.0),
             child: TextField(
+              controller: phonenumberController,
               decoration: InputDecoration(
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10),
@@ -97,20 +102,25 @@ class PhoneScreen extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 50),
-            child: Container(
-              height: 49,
-              width: 321,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                color: Color.fromRGBO(28, 103, 88, 1),
-              ),
-              child: const Center(
-                child: Text(
-                  'Next',
-                  style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.white),
+            child: InkWell(
+              onTap: () {
+                
+              },
+              child: Container(
+                height: 49,
+                width: 321,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Color.fromRGBO(28, 103, 88, 1),
+                ),
+                child: const Center(
+                  child: Text(
+                    'Next',
+                    style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.white),
+                  ),
                 ),
               ),
             ),
