@@ -8,6 +8,8 @@ import 'package:socialmedia/notific.dart';
 import 'package:socialmedia/onboarding/first_screen.dart';
 import 'package:socialmedia/onboarding/second_screen.dart';
 import 'package:socialmedia/onboarding/third_screen.dart';
+import 'package:socialmedia/verify/person_info.dart';
+import 'package:socialmedia/verify/signup.dart';
 import 'package:socialmedia/verify_2.dart/signin.dart';
 
 import 'posts/posts_screen.dart';
@@ -41,7 +43,7 @@ class MyApp extends StatelessWidget {
 // // <<<<<<< vahe_brench
 // //       home: Social(),
 // // =======
-      home: postscreen(),
+      home: Material(),
 // >>>>>>> master
 // =======
 //       home: Story2(),
