@@ -78,3 +78,27 @@ class Welcome extends StatelessWidget {
     );
   }
 }
+// import 'package:flutter/material.dart';
+
+// class PersonInfo extends StatefulWidget {
+//   const PersonInfo({super.key});
+
+//   @override
+//   State<PersonInfo> createState() => _PersonInfoState();
+// }
+
+// double h = 0;
+// double w = 0;
+// double h2 = 0;
+// double w2 = 0;
+
+// class _PersonInfoState extends State<PersonInfo> {
+//   List<String> listItem = <String>[
+   
+//   ];
+//   List<String> listItem2 = <String>[
+//     "male",
+//     " female",
+//   ];
+  
+// }
