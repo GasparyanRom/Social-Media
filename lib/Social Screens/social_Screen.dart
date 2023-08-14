@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:socialmedia/Social%20Screens/create.dart';
 
 class Socialscreen extends StatelessWidget {
   const Socialscreen({super.key});
@@ -9,13 +10,33 @@ class Socialscreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            const Padding(
-              padding: EdgeInsets.symmetric(vertical: 40),
-              child: Center(
-                child: Text(
-                  'Social',
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
-                ),
+            Padding(
+              padding: const EdgeInsets.symmetric(
+                vertical: 25,
+              ),
+              child: Row(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.all(15),
+                    child: InkWell(
+                        onTap: () {
+                          Navigator.of(context).pop();
+                        },
+                        child: const Icon(Icons.arrow_back_ios)),
+                  ),
+                  const Center(
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 130),
+                      child: Text(
+                        'Social',
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
             Padding(
@@ -289,21 +310,30 @@ class Socialscreen extends StatelessWidget {
                     ],
                   )),
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                Container(
-                    height: 49,
-                    width: 49,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(50),
-                      color: const Color.fromRGBO(0, 97, 117, 1),
-                    ),
-                    child: Image.asset('images/1515.png')),
-                const SizedBox(
-                  width: 50,
-                )
-              ],
+            InkWell(
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => Create(),
+                  ),
+                );
+              },
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Container(
+                      height: 49,
+                      width: 49,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(50),
+                        color: const Color.fromRGBO(0, 97, 117, 1),
+                      ),
+                      child: Image.asset('images/1515.png')),
+                  const SizedBox(
+                    width: 50,
+                  )
+                ],
+              ),
             ),
             Container(
               decoration: BoxDecoration(

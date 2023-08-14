@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:socialmedia/onboarding/third_screen.dart';
 
 class SecondScreen extends StatelessWidget {
-  const SecondScreen({super.key});
+  final VoidCallback toggle;
+  const SecondScreen({super.key, required this.toggle});
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +41,9 @@ class SecondScreen extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: ((context) => const ThirdScreen()),
+                        builder: ((context) =>  ThirdScreen(
+                             toggle: toggle,
+                            )),
                       ),
                     );
                   },

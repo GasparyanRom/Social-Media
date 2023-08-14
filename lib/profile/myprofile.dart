@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:socialmedia/profile/edit_profile.dart';
 
 class MyProfile extends StatelessWidget {
   const MyProfile({super.key});
@@ -19,17 +20,21 @@ class MyProfile extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          const Padding(
-            padding: EdgeInsets.symmetric(
+          Padding(
+            padding: const EdgeInsets.symmetric(
               vertical: 25,
             ),
             child: Row(
               children: [
                 Padding(
-                  padding: EdgeInsets.all(15),
-                  child: Icon(Icons.arrow_back_ios),
+                  padding: const EdgeInsets.all(15),
+                  child: InkWell(
+                      onTap: () {
+                        Navigator.of(context).pop();
+                      },
+                      child: const Icon(Icons.arrow_back_ios)),
                 ),
-                Center(
+                const Center(
                   child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 130),
                     child: Text(
@@ -64,9 +69,20 @@ class MyProfile extends StatelessWidget {
                   ),
                 ],
               ),
-              const Padding(
-                padding: EdgeInsets.symmetric(horizontal: 80),
-                child: Icon(Icons.settings_outlined),
+              Container(
+                width: 80,
+              ),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: InkWell(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => EditProfile(),
+                        ),
+                      );
+                    },
+                    child: const Icon(Icons.settings_outlined)),
               ),
             ],
           ),
@@ -94,20 +110,30 @@ class MyProfile extends StatelessWidget {
               ],
             ),
           ),
-          Container(
-            height: 42,
-            width: 318,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-              color: Color.fromRGBO(28, 103, 88, 1),
-            ),
-            child: const Center(
-              child: Text(
-                'Edit Profile',
-                style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.white),
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => EditProfile(),
+                ),
+              );
+            },
+            child: Container(
+              height: 42,
+              width: 318,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: Color.fromRGBO(28, 103, 88, 1),
+              ),
+              child: const Center(
+                child: Text(
+                  'Edit Profile',
+                  style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.white),
+                ),
               ),
             ),
           ),

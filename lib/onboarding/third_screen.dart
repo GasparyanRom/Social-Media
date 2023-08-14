@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:socialmedia/verify/phone_screen.dart';
+import 'package:socialmedia/verify_2.dart/signin.dart';
 
 class ThirdScreen extends StatelessWidget {
-  const ThirdScreen({super.key});
+  final VoidCallback toggle;
+  const ThirdScreen({super.key, required this.toggle});
 
   @override
   Widget build(BuildContext context) {
@@ -43,13 +46,22 @@ class ThirdScreen extends StatelessWidget {
                   ),
                   width: 320,
                   height: 49,
-                  child: const Center(
-                    child: Text(
-                      'Continue',
-                      style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.w600,
-                          color: Colors.white),
+                  child: Center(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => PhoneScreen(),
+                          ),
+                        );
+                      },
+                      child: Text(
+                        'Continue',
+                        style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.white),
+                      ),
                     ),
                   ),
                 ),
@@ -74,22 +86,29 @@ class ThirdScreen extends StatelessWidget {
                 Container(
                   height: 120,
                 ),
-                const Row(
+                Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text(
+                    const Text(
                       'Already have an account?',
                       style: TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeight.w500,
                           color: Colors.white),
                     ),
-                    Text(
-                      'Sign In',
-                      style: TextStyle(
-                          fontSize: 14,
-                          fontWeight: FontWeight.w600,
-                          color: Colors.black),
+                    InkWell(
+                      onTap: () {
+                        Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => SignIN(toggle: toggle),
+                        ));
+                      },
+                      child: const Text(
+                        'Sign In',
+                        style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.black),
+                      ),
                     )
                   ],
                 ),

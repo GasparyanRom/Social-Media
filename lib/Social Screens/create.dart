@@ -1,10 +1,17 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:socialmedia/Providers/AuthProvider.dart';
 
 class Create extends StatelessWidget {
   const Create({super.key});
 
   @override
   Widget build(BuildContext context) {
+     final authProvider = Provider.of<AuthProvider>(context);
+         final emailController = TextEditingController();
+    final passwordController = TextEditingController();
+ final authService = FirebaseAuth.instance;
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,

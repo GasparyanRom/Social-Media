@@ -45,6 +45,7 @@ dependencies:
   json_annotation: ^4.8.0
   firebase_auth: ^4.4.2
   firebase_storage: ^11.2.0
+  curved_navigation_bar: ^1.0.3
 
 dev_dependencies:
   flutter_test:
@@ -56,8 +57,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
-  json_serializable: ^6.6.1
-  build_runner: ^2.3.3
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.6
   email_validator: '^2.1.16'
   google_fonts: ^4.0.4
 # For information on the generic Dart part of this file, see the
