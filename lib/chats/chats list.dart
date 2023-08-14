@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:socialmedia/chats/chat.dart';
+import 'package:socialmedia/navigation_bar_screen.dart';
 
 import 'chat_class.dart';
 
@@ -55,102 +57,115 @@ class Chatlist extends StatelessWidget {
     ];
 
     return Scaffold(
-      body: Column(
-        children: [
-          const Padding(
-            padding: EdgeInsets.symmetric(vertical: 35),
-            child: Text(
-              "Chats",
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
-            ),
-          ),
-          TextFormField(
-            decoration: const InputDecoration(
-              filled: true,
-              fillColor: Color.fromRGBO(242, 242, 242, 1),
-              icon: Icon(Icons.search),
-              border: OutlineInputBorder(),
-            ),
-          ),
-          Row(
-            children: [
-              const Text(
-                'Frequently chatted',
-                style: TextStyle(
-                    color: Color.fromRGBO(0, 0, 0, 1),
-                    fontSize: 14,
-                    fontWeight: FontWeight.w500),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            const Padding(
+              padding: EdgeInsets.symmetric(vertical: 35),
+              child: Text(
+                "Chats",
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
               ),
-            ],
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: SizedBox(
-              width: 300,
-              height: 70,
-              child: ListView.builder(
-                itemCount: posts.length,
-                scrollDirection: Axis.horizontal,
-                itemBuilder: (context, index) => Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    child: Column(
-                      children: [
-                        Image.asset(
-                          posts[index],
-                          fit: BoxFit.cover,
-                        ),
-                      ],
+            ),
+            TextFormField(
+              decoration: const InputDecoration(
+                filled: true,
+                fillColor: Color.fromRGBO(242, 242, 242, 1),
+                icon: Icon(Icons.search),
+                border: OutlineInputBorder(),
+              ),
+            ),
+            Row(
+              children: [
+                const Text(
+                  'Frequently chatted',
+                  style: TextStyle(
+                      color: Color.fromRGBO(0, 0, 0, 1),
+                      fontSize: 14,
+                      fontWeight: FontWeight.w500),
+                ),
+              ],
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: SizedBox(
+                width: 300,
+                height: 70,
+                child: ListView.builder(
+                  itemCount: posts.length,
+                  scrollDirection: Axis.horizontal,
+                  itemBuilder: (context, index) => Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      child: Column(
+                        children: [
+                          Image.asset(
+                            posts[index],
+                            fit: BoxFit.cover,
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ),
               ),
             ),
-          ),
-          Row(
-            children: [
-              const Text(
-                'All Messages',
-                style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
-              ),
-            ],
-          ),
-          SizedBox(
-            height: 400,
-            width: 500,
-            child: ListView.builder(
-              itemCount: users.length,
-              scrollDirection: Axis.vertical,
-              itemBuilder: (context, index) => Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Row(
-                  children: [
-                    Container(
-                      child: Column(
-                        children: [
-                          Row(
-                            children: [
-                              Image.asset(
-                                users[index],
-                                fit: BoxFit.cover,
-                              ),
-                              Text(
-                                user[index].name,
-                                style: TextStyle(
-                                    fontSize: 12, fontWeight: FontWeight.w700),
-                              )
-                            ],
-                          ),
-                        ],
+            Row(
+              children: [
+                const Text(
+                  'All Messages',
+                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 400,
+              width: 500,
+              child: ListView.builder(
+                itemCount: users.length,
+                scrollDirection: Axis.vertical,
+                itemBuilder: (context, index) => Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      Container(
+                        child: Column(
+                          children: [
+                            Row(
+                              children: [
+                                InkWell(
+                                  onTap: () {
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute(
+                                        builder: (context) => chat(),
+                                      ),
+                                    );
+                                  },
+                                  child: Image.asset(
+                                    users[index],
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                                Text(
+                                  user[index].name,
+                                  style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w700),
+                                )
+                              ],
+                            ),
+                          ],
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
+      bottomNavigationBar: const NavigationBarScreen(),
     );
   }
 }

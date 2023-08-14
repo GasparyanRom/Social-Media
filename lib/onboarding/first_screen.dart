@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:socialmedia/onboarding/second_screen.dart';
+import 'package:socialmedia/onboarding/third_screen.dart';
 
 class FirstScreen extends StatelessWidget {
-  const FirstScreen({super.key});
+  final VoidCallback toggle;
+  const FirstScreen({super.key, required this.toggle});
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +49,9 @@ class FirstScreen extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: ((context) => const SecondScreen()),
+                          builder: ((context) => SecondScreen(
+                                toggle: toggle,
+                              )),
                         ),
                       );
                     },
@@ -96,11 +100,20 @@ class FirstScreen extends StatelessWidget {
                         color: const Color.fromRGBO(255, 255, 255, 1)),
                     width: 320,
                     height: 49,
-                    child: const Center(
-                      child: Text(
-                        'Skip',
-                        style: TextStyle(
-                            fontSize: 18, fontWeight: FontWeight.w600),
+                    child: Center(
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.of(context).push(MaterialPageRoute(
+                            builder: (context) => ThirdScreen(
+                              toggle: toggle,
+                            ),
+                          ));
+                        },
+                        child: Text(
+                          'Skip',
+                          style: TextStyle(
+                              fontSize: 18, fontWeight: FontWeight.w600),
+                        ),
                       ),
                     ),
                   ),

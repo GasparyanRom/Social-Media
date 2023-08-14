@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:socialmedia/models/post.dart';
 
 class commentscreen extends StatelessWidget {
-  const commentscreen({super.key});
+  const commentscreen({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -35,15 +38,11 @@ class commentscreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10)),
                 child: Column(
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
+                    const Padding(
+                      padding: EdgeInsets.all(8.0),
                       child: Row(
                         children: [
-                          Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 8),
-                            child: Image.asset('images/user.png'),
-                          ),
-                          const Column(
+                          Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(

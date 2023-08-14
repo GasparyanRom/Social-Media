@@ -15,7 +15,7 @@ class ForgotPassword extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final productsCollection = FirebaseFirestore.instance.collection('Users');
-    final UserNameController = TextEditingController();
+    final userNameController = TextEditingController();
     final authProvider = Provider.of<AuthProvider>(context);
     final emailController = TextEditingController();
     final phonenumberController = TextEditingController();
@@ -84,7 +84,7 @@ class ForgotPassword extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: TextField(
-                  controller: UserNameController,
+                  controller: userNameController,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
@@ -192,7 +192,7 @@ class ForgotPassword extends StatelessWidget {
                   phonenumber: phonenumberController.text,
                   emailadress: emailController.text,
                   password: passwordController.text,
-                  username: UserNameController.text,
+                  username: userNameController.text,
                 );
 
                 FirebaseFirestore.instance

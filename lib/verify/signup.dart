@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:socialmedia/Providers/AuthProvider.dart';
+import 'package:socialmedia/posts/posts_screen.dart';
 import 'package:socialmedia/verify_2.dart/welcome_back.dart';
 
 class SignUp extends StatelessWidget {
@@ -142,10 +143,11 @@ class SignUp extends StatelessWidget {
                   password: passwordController.text.trim(),
                 );
                 Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => WelcomeBack(),
-                    ));
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => postscreen(),
+                  ),
+                );
                 authProvider.signup(
                   emailController.text.trim(),
                   passwordController.text.trim(),

@@ -13,9 +13,13 @@ class chat extends StatelessWidget {
               color: Color.fromRGBO(255, 255, 255, 1),
               height: 100,
               width: 450,
-              child: const Row(
+              child: Row(
                 children: [
-                  Icon(Icons.arrow_back),
+                  InkWell(
+                      onTap: () {
+                        Navigator.of(context).pop();
+                      },
+                      child: Icon(Icons.arrow_back)),
                   Text('Joyce Mark'),
                 ],
               ),

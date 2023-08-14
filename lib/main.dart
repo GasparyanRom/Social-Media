@@ -10,7 +10,10 @@ import 'package:socialmedia/notific.dart';
 import 'package:socialmedia/onboarding/first_screen.dart';
 import 'package:socialmedia/onboarding/second_screen.dart';
 import 'package:socialmedia/onboarding/third_screen.dart';
+
 import 'package:socialmedia/posts/addpost.dart';
+import 'package:socialmedia/profile/edit_profile.dart';
+import 'package:socialmedia/profile/myprofile.dart';
 import 'package:socialmedia/verify/phone_screen.dart';
 import 'package:socialmedia/verify/signup.dart';
 import 'package:socialmedia/verify_2.dart/Auth_screen.dart';
@@ -37,10 +40,13 @@ import 'posts/posts_screen.dart';
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(const MyApp());
+  runApp(MyApp(
+    
+  ));
 }
 
 class MyApp extends StatelessWidget {
+  
   const MyApp({super.key});
 
   @override
@@ -51,12 +57,14 @@ class MyApp extends StatelessWidget {
           create: ((context) => AuthProvider()),
         ),
       ],
-      child: const MaterialApp(
+      child: MaterialApp(
         // <<<<<<< HEAD
         // // <<<<<<< vahe_brench
         // //       home: Social(),
         // // =======
-        home: AuthScreen(),
+        home: FirstScreen(
+          toggle: (){},
+        ),
         // >>>>>>> master
         // =======
         //       home: Story2(),
